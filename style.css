@@ -1,0 +1,79 @@
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#balance {
+  font-size: 18px;
+  color: #22c55e;
+}
+
+#timer {
+  font-size: 20px;
+  color: #facc15;
+}
+
+.bet-container {
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #22c55e;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.cell {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cell:hover {
+  background: #334155;
+}
+
+.selected {
+  background: #22c55e !important;
+}
+
+.drawn {
+  background: #ef4444 !important;
+}
+
+.match {
+  background: #22c55e !important;
+  border: 2px solid yellow;
+}
