@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fast Keno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>FAST KENO</h1>
+
+  <div class="top">
+    <div id="balance">Balance: 100 ETB</div>
+    <div id="timer">Time: 60</div>
+  </div>
+
+  <div class="bet-container">
+    Bet Amount: 
+    <input type="number" id="betAmount" value="1" min="1" step="1"> ETB
+    <button id="placeBet">Place Bet</button>
+  </div>
+
+  <div id="selected">Selected: []</div>
+  <div id="grid" class="grid"></div>
+
+  <div id="result">Waiting for next draw...</div>
+  <div id="history">History: </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+  </html>
